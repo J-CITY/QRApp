@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+  
+    "name": "QRApp",
+    "description": "Simple app for generate QR code",
+    "version": "1.0",
+  
+    "icons": {
+      "48": "icon.png"
+    },
+  
+    "permissions": [
+      "tabs", "tabs"
+    ],
+
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "index.html"
+    }
+  }
